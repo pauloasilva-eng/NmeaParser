@@ -1,0 +1,3 @@
+In terms of robustness, I think I have done a good job protecting the pointers throughout the code, however I would like to know better about 
+the kind of data to expect during the GPRMC parsing to better protect the parsing of the packet information, should be interesting to simulate
+inputs where you get scrambled data, or information loss between MCU and GPS module.
